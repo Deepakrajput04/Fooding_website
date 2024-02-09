@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400;1,500;1,700&family=Roboto&display=swap');
+
+:root{
+  --primary-color:#F54749;
+  --dark-color: #121212;
+  --main-padding: 4rem 0;
+  --padding: 3rem 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0;
+}
+
+body{
+  background-color: #f7f6f4 !important;
+ 
+}
+
+/* ****************  */
+.nav_main{
+  background-color: var(--dark-color);
+  font-size: 1.1rem !important; 
+}
+.nav_link{
+  color: #fff;
+  font-size: 1.7rem;
+}
+.nav_link a:hover{
+  color: var(--primary-color);
+}
+.icons i{
+  color: #fff;
+  font-size: 1.7rem;
+}
+.icons img:hover,
+.icons i:hover{
+  transform: scale(1.3);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn1{
+  border: 0;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.btn1:hover{
+  transform: scale(1.06);
+  transition: 0.3s ease-in-out;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+}
+.navbar-nav li{
+  padding: 0 0.7rem;
+}
+.home_main{
+  background: var(--dark-color);
+  color: #fff;
+  padding: var(--padding);
+}
+.home_main img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+/* .home_main img:hover{
+  animation: foodie infinite 3s ease-in-out;
+} */
+.btn0{
+  padding: 0.8 1.4rem;
+}
+.btn0:hover,
+.btn00:hover {
+  transform: scale(1.06);
+  transition: 0.3s ease-in-out;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: #fff;
+}
+.btn_0:hover {
+  transform: scale(1.06);
+  transition: 0.3s ease-in-out;
+  background: var(--dark-color);
+  border: transparent;
+  color: #fff;
+  border: 0;
+}
+.btn00{
+  padding: 0.8 1.4rem;
+  background: #fff;
+  color: #000;
+  font-weight: 500 ;
+}
+.hero_col1 h1{
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+.delivery_col1{
+  margin: 0 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 40px 3px #e2e2e2;
+}
+.delivery_col1 h3{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.delivery_col1:hover{
+cursor: pointer;
+transform: scale(1.05);
+transition: 0.3s ease-in-out;
+box-shadow: 0 0 10px 1px var(--primary-color);
+
+}
+.main-heading{
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.main-heading span{
+  color: var(--primary-color);
+}
+.about_col2 h3{
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+.about_col2 h1{
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+.main_P{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.counter{
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+.counter h1{
+  color: var(--primary-color);
+}
+.Recipes_col1{
+margin: 1rem;
+padding: 3rem 1.5rem 1rem 1.5rem;
+box-shadow: 0 0 40px 3px #dfdfdf;
+border-radius: 20px;
+}
+/* .Recipes{
+  position: relative; 
+  text-align: center;
+} */
+.Recipes img {
+  width: 230px;
+  /* box-shadow: 0 0 40px 3px #dfdfdf; */
+  border-radius: 40px;
+}
+.Recipes img:hover {
+  animation: foodie infinite 3s ease-in-out;
+  cursor: pointer;
+}
+@keyframes foodie {
+  0%{
+    transform: rotate(30deg) scale(1.05);
+  }
+  25%{
+    transform: rotate(60deg) scale(1.1);
+  }
+  50%{
+    transform: rotate(-30deg) scale(1);
+  }
+  100%{
+    transform: rotate(-60deg) scale(1.15);
+  }
+  
+}
+.Recipes_col1 h4{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.stars i{
+  font-size: 1rem;
+  padding-right: 0.1rem;
+  color: #f5c60d;
+}
+.stars i:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.Recipes_col1 button{
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 3px;
+  color: #fff;
+  background-color: var(--primary-color);
+  
+}
+.Recipes_col1 button:hover {
+  transform: scalex(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.TopCollections img{
+opacity: 0.95;
+}
+.TopCollections img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  opacity: 1;
+  /* box-shadow: 0 0 40px 3px #dfdfdf; */
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizonatal {
+  position: inherit !important;
+  margin-top: 2rem !important;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet:hover {
+  transform: scale(1.4);
+  transition: 0.3s ease-in-out;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-color) !important;
+}
+.test_col1 img{
+  border-radius: 10px;
+}
+.Testimonial{
+cursor: pointer;
+}
+.Footer{
+  background-color: var(--dark-color);
+}
+.Footer_nav {
+  justify-content: center;
+}
+.Footer_nav li{
+ padding: 0 1rem;
+ list-style: none;
+}
+.Footer_icons i {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0 0.5rem;
+}
+.Footer_icons i:hover{
+  cursor: pointer;
+  transform: scale(1.3);
+  color: var(--primary-color);
+  transition: 0.3s ease-in-out;
+}
+.Testimonial1,
+.Colletions1 {
+  display: block;
+}
+.Testimonial2,
+.Colletions2 {
+  display: none;
+}
+@media only screen and (min-width: 310px) and (max-width: 476px){
+.navbar-brand img{
+width: 150px;
+}
+.navbar-toggler-icon{
+  color: #fff;
+  font-size: 1.7rem;
+  height: auto;
+}
+.navbar-toggler{
+  padding: 0.5 !important;
+}
+.nav_main{
+  padding: 0.8rem !important;
+}
+.hero_col1 h1 {
+  font-size: 2.2rem;
+}
+.hero_col2{
+  padding-top: 2rem;
+}
+.delivery_col1 {
+  margin: 1rem;
+}
+.main-heading {
+  font-size: 1.7rem;
+}
+.about_col2{
+  padding: 2rem 0;
+}
+.about_col2 h1 {
+  font-size: 2.2rem;
+}
+.btn_0{
+  padding: 0.5rem;
+}
+.Recipes_col1 {
+  margin: 1rem 0;
+}
+.stars i {
+  font-size: 1.3rem;
+  padding-right: 0.2rem;
+}
+.Colletions1,
+.Testimonial1 {
+  display: none;
+}
+.Colletions2,
+.Testimonial2 {
+  display: block;
+}
+.team_col1{
+  padding: 1rem 0;
+}
+.test_col1{
+  padding: 1.5rem 0;
+}
+.test_col2{
+  padding: 1rem 0;
+}
+.Footer_nav li {
+padding: 0.8rem 0 !important;
+}
+.Footer_nav ul{
+  padding-left: 1rem !important;
+}
+}
+.img_back{
+  border-radius: 40px;
+}
