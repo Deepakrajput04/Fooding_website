@@ -26,23 +26,23 @@ const Navbar = () => {
                 <a
                   className="nav-link active text-white"
                   aria-current="page"
-                  href="Home"
+                  href="#Home"
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="Menu">
+                <a className="nav-link text-white" href="#Menu">
                   Menu
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="About">
+                <a className="nav-link text-white" href="#About">
                   About us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="Facility">
+                <a className="nav-link text-white" href="#Facility">
                   Facility
                 </a>
               </li>
